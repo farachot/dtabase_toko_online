@@ -1,6 +1,4 @@
-SELECT * FROM Users;
-SELECT * FROM Products;
-SELECT * FROM Orders;
+
 
 UPDATE Products SET Harga = 5.000 WHERE Id = 2;
 
