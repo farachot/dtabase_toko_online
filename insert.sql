@@ -1,0 +1,32 @@
+INSERT INTO Users (Nama_Lengkap, Username, Pasword, Email, Alamat) VALUES ('A farid', 'farid', 'fff', 'farid@gmail.com', 'janjangwulung');
+INSERT INTO Users (Nama_Lengkap, Username, Pasword, Email, Alamat) VALUES ('B Adid', 'Adid', 'fff', 'Adid@gmail.com', 'jakarta');
+INSERT INTO Users (Nama_Lengkap, Username, Pasword, Email, Alamat) VALUES ('K fgyid', 'fgyid', 'fff', 'fgyid@gmail.com', 'bandung');
+INSERT INTO Users (Nama_Lengkap, Username, Pasword, Email, Alamat) VALUES ('C crid', 'crid', 'fff', 'cridd@gmail.com', 'kalimantan');
+INSERT INTO Users (Nama_Lengkap, Username, Pasword, Email, Alamat) VALUES ('N nani', 'nani', 'fff', 'nani@gmail.com', 'sulawesi');
+INSERT INTO Users (Nama_Lengkap, Username, Pasword, Email, Alamat) VALUES ('b Lek', 'Lek', 'fff', 'Lek@gmail.com', 'aceh');
+INSERT INTO Users (Nama_Lengkap, Username, Pasword, Email, Alamat) VALUES ('A Handi', 'Handi', 'fff', 'Handi@gmail.com', 'solo');
+INSERT INTO Users (Nama_Lengkap, Username, Pasword, Email, Alamat) VALUES ('A Niro', 'Niro', 'fff', 'Niro@gmail.com', 'kudus');
+INSERT INTO Users (Nama_Lengkap, Username, Pasword, Email, Alamat) VALUES ('M Liko', 'Liko', 'fff', 'Liko@gmail.com', 'mororejo');
+INSERT INTO Users (Nama_Lengkap, Username, Pasword, Email, Alamat) VALUES ('A Ikmal', 'Ikmal', 'fff', 'Ikmal@gmail.com', 'pasuruan');
+
+INSERT INTO Products (Nama_Produk, Deskripsi_Produk, Harga, Stok, Gambar) VALUES ('kitkat', 'makanan', 2.000, 100, 'http.unsplash');
+INSERT INTO Products (Nama_Produk, Deskripsi_Produk, Harga, Stok, Gambar) VALUES ('indomi', 'makanan', 4.000, 100, 'http.unsplash');
+INSERT INTO Products (Nama_Produk, Deskripsi_Produk, Harga, Stok, Gambar) VALUES ('popmi', 'makanan', 7.000, 100, 'http.unsplash');
+INSERT INTO Products (Nama_Produk, Deskripsi_Produk, Harga, Stok, Gambar) VALUES ('sarimi', 'makanan', 4.000, 100, 'http.unsplash');
+INSERT INTO Products (Nama_Produk, Deskripsi_Produk, Harga, Stok, Gambar) VALUES ('chitato', 'makanan', 10.000, 100, 'http.unsplash');
+INSERT INTO Products (Nama_Produk, Deskripsi_Produk, Harga, Stok, Gambar) VALUES ('milku', 'minuman', 4.000, 100, 'http.unsplash');
+INSERT INTO Products (Nama_Produk, Deskripsi_Produk, Harga, Stok, Gambar) VALUES ('indomilk', 'minuman', 5.000, 100, 'http.unsplash');
+INSERT INTO Products (Nama_Produk, Deskripsi_Produk, Harga, Stok, Gambar) VALUES ('kopikap', 'minuman', 1.000, 100, 'http.unsplash');
+INSERT INTO Products (Nama_Produk, Deskripsi_Produk, Harga, Stok, Gambar) VALUES ('roti', 'makanan', 5.000, 100, 'http.unsplash');
+INSERT INTO Products (Nama_Produk, Deskripsi_Produk, Harga, Stok, Gambar) VALUES ('kripik', 'makanan', 2.000, 100, 'http.unsplash');
+
+INSERT INTO Orders (Users_Id, Products_Id, Jumlah, Tanggal) VALUES (1, 1, 3, current_date());
+INSERT INTO Orders (Users_Id, Products_Id, Jumlah, Tanggal) VALUES (3, 2, 4, current_date());
+INSERT INTO Orders (Users_Id, Products_Id, Jumlah, Tanggal) VALUES (4, 3, 4, current_date());
+INSERT INTO Orders (Users_Id, Products_Id, Jumlah, Tanggal) VALUES (5, 4, 5, current_date());
+INSERT INTO Orders (Users_Id, Products_Id, Jumlah, Tanggal) VALUES (6, 5, 6, current_date());
+INSERT INTO Orders (Users_Id, Products_Id, Jumlah, Tanggal) VALUES (7, 6, 7, current_date());
+INSERT INTO Orders (Users_Id, Products_Id, Jumlah, Tanggal) VALUES (8, 7, 7, current_date());
+INSERT INTO Orders (Users_Id, Products_Id, Jumlah, Tanggal) VALUES (9, 8, 8, current_date());
+INSERT INTO Orders (Users_Id, Products_Id, Jumlah, Tanggal) VALUES (10, 9, 3, current_date());
+INSERT INTO Orders (Users_Id, Products_Id, Jumlah, Tanggal) VALUES (11, 10, 3, current_date());
