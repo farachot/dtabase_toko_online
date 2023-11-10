@@ -1,8 +1,6 @@
-
-
-UPDATE Products SET Harga = 5.000 WHERE Id = 2;
-
 DELETE FROM Users WHERE Id = 2;
+DELETE FROM Products WHERE Id = 3;
+DELETE FROM Users WHERE Id = 4;
 
 DROP TABLE Users;
 DROP TABLE Products;
